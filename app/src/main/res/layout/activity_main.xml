@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/stadium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:text="Georgia Tech Football"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phoneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/emailText"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Call 404.894.5447 for tickets"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:text="email:  tickets@athletics.gatech.edu"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
