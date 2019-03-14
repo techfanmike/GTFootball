@@ -21,7 +21,7 @@
         android:fontFamily="sans-serif-light"
         android:paddingLeft="8dp"
         android:paddingTop="8dp"
-        android:text="Georgia Tech Football"
+        android:text="@string/georgia_tech_football"
         android:textColor="@android:color/white"
         android:textSize="36sp"
         android:textStyle="bold" />
@@ -36,7 +36,7 @@
         android:paddingLeft="8dp"
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
-        android:text="Call 404.894.5447 for tickets"
+        android:text="@string/ticket_phone_number"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -50,7 +50,7 @@
         android:fontFamily="sans-serif-light"
         android:paddingLeft="10dp"
         android:paddingBottom="10dp"
-        android:text="email:  tickets@athletics.gatech.edu"
+        android:text="@string/tickets_email"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold"/>
